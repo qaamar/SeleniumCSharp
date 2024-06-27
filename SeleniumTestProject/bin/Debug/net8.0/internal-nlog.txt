@@ -1,0 +1,1932 @@
+2024-06-19 13:50:12.7745 Debug Message Template Auto Format enabled
+2024-06-19 13:50:12.7971 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.7980 Trace Scanning SpecialFolderLayoutRenderer 'Layout Renderer: ${specialfolder}'
+2024-06-19 13:50:12.8003 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.8003 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:50:12.8003 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.8003 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:50:12.8003 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.8003 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:50:12.8003 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.8003 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:50:12.8003 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 13:50:12.8003 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 13:50:12.8013 Trace ParseRulesElement
+2024-06-19 13:50:12.8041 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 13:50:12.8640 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 13:50:12.8643 Debug --- NLog configuration dump ---
+2024-06-19 13:50:12.8643 Debug Targets:
+2024-06-19 13:50:12.8643 Debug FileTarget(Name=file)
+2024-06-19 13:50:12.8643 Debug Rules:
+2024-06-19 13:50:12.8653 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 13:50:12.8653 Debug --- End of NLog configuration dump ---
+2024-06-19 13:50:12.8653 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 13:50:12.8653 Trace FindReachableObject<System.Object>:
+2024-06-19 13:50:12.8663 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 13:50:12.8663 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 13:50:12.8663 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 13:50:12.8663 Trace   Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 13:50:12.8663 Trace   Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 13:50:12.8663 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:50:12.8672 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8672 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 13:50:12.8672 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 13:50:12.8672 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:50:12.8672 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:50:12.8672 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8672 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:50:12.8672 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8672 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:50:12.8672 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8672 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:50:12.8672 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 13:50:12.8672 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 13:50:12.8685 Info Validating config: TargetNames=file, ConfigItems=12, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 13:50:12.8685 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 13:50:12.8700 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 13:50:12.8700 Trace Initializing Layout Renderer: ${message}
+2024-06-19 13:50:12.8703 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:50:12.8703 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 13:50:12.8703 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:50:12.8703 Trace Initializing Layout Renderer: ${level}
+2024-06-19 13:50:12.8703 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:50:12.8703 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 13:50:12.8703 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 13:50:12.8703 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.8703 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 13:50:12.8713 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:50:12.8713 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:50:12.8713 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8713 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:50:12.8713 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8713 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:50:12.8713 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8713 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:50:12.8723 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:50:12.8723 Trace Initializing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 13:50:12.8723 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:50:12.8723 Trace Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 13:50:12.8723 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:50:12.8723 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:50:12.8723 Trace Initializing FileTarget(Name=file)
+2024-06-19 13:50:12.8736 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 13:50:12.8736 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 13:50:12.8736 Trace  Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 13:50:12.8736 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 13:50:12.8736 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 13:50:12.8745 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 13:50:12.8745 Info Configuration initialized.
+2024-06-19 13:50:12.8775 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 13:50:12.8775 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 13:50:12.8775 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 13:50:12.8775 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 13:50:12.8775 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 13:50:12.8775 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 13:50:12.8775 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 13:50:12.8814 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:50:12.8829 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:50:12.8835 Trace FileTarget(Name=file): Opening /Users/admin/Documents/logs/logfile.log with allowFileSharedWriting=False
+2024-06-19 13:50:14.3793 Info Shutdown() called. Logger closing...
+2024-06-19 13:50:14.3793 Info Closing old configuration.
+2024-06-19 13:50:14.3811 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 13:50:14.3816 Trace Flushing all 1 targets...
+2024-06-19 13:50:14.3822 Trace ForEachItemInParallel() 1 items
+2024-06-19 13:50:14.3835 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 13:50:14.3835 Trace Continuation invoked: 
+2024-06-19 13:50:14.3835 Trace Parallel task completed. 0 items remaining
+2024-06-19 13:50:14.3843 Debug Flush completed
+2024-06-19 13:50:14.3843 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 13:50:14.3843 Debug Closing logging configuration...
+2024-06-19 13:50:14.3843 Trace Closing FileTarget(Name=file)
+2024-06-19 13:50:14.3843 Debug FileTarget(Name=file): Closing...
+2024-06-19 13:50:14.3855 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/Documents/logs/logfile.log, isArchiving: False'
+2024-06-19 13:50:14.3855 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:50:14.3864 Trace FileTarget: Closing '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:50:14.3864 Debug FileTarget(Name=file): Closed.
+2024-06-19 13:50:14.3864 Trace Closing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 13:50:14.3864 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:50:14.3873 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${level}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:50:14.3873 Trace Closing Layout Renderer: ${message}
+2024-06-19 13:50:14.3873 Debug Finished closing logging configuration.
+2024-06-19 13:50:14.3873 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 13:50:14.3886 Info Logger has been closed down.
+2024-06-19 13:50:14.4077 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 13:50:14.4084 Info LogFactory has been closed.
+2024-06-19 13:51:19.8299 Debug Message Template Auto Format enabled
+2024-06-19 13:51:19.8521 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.8530 Trace Scanning SpecialFolderLayoutRenderer 'Layout Renderer: ${specialfolder}'
+2024-06-19 13:51:19.8554 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.8554 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:51:19.8557 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.8557 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:51:19.8557 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.8557 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:51:19.8557 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.8557 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:51:19.8557 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 13:51:19.8557 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 13:51:19.8557 Trace ParseRulesElement
+2024-06-19 13:51:19.8593 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 13:51:19.9179 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 13:51:19.9179 Debug --- NLog configuration dump ---
+2024-06-19 13:51:19.9179 Debug Targets:
+2024-06-19 13:51:19.9187 Debug FileTarget(Name=file)
+2024-06-19 13:51:19.9187 Debug Rules:
+2024-06-19 13:51:19.9187 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 13:51:19.9187 Debug --- End of NLog configuration dump ---
+2024-06-19 13:51:19.9197 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 13:51:19.9197 Trace FindReachableObject<System.Object>:
+2024-06-19 13:51:19.9197 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 13:51:19.9197 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 13:51:19.9207 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 13:51:19.9207 Trace   Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 13:51:19.9207 Trace   Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 13:51:19.9207 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:51:19.9207 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9207 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 13:51:19.9207 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 13:51:19.9207 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:51:19.9207 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:51:19.9207 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9207 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:51:19.9216 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9216 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:51:19.9216 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9216 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:51:19.9216 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 13:51:19.9216 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 13:51:19.9216 Info Validating config: TargetNames=file, ConfigItems=12, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 13:51:19.9228 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 13:51:19.9239 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${message}
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${level}
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:51:19.9239 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 13:51:19.9239 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 13:51:19.9250 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.9250 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 13:51:19.9250 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:51:19.9250 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:51:19.9250 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9250 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:51:19.9250 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9250 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:51:19.9250 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9250 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:51:19.9261 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:51:19.9261 Trace Initializing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 13:51:19.9261 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:51:19.9261 Trace Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 13:51:19.9261 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:51:19.9261 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:51:19.9261 Trace Initializing FileTarget(Name=file)
+2024-06-19 13:51:19.9270 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 13:51:19.9270 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 13:51:19.9270 Trace  Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 13:51:19.9270 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 13:51:19.9270 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 13:51:19.9278 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 13:51:19.9278 Info Configuration initialized.
+2024-06-19 13:51:19.9310 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 13:51:19.9310 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 13:51:19.9310 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 13:51:19.9310 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 13:51:19.9310 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 13:51:19.9310 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 13:51:19.9310 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 13:51:19.9351 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:51:19.9364 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:51:19.9370 Trace FileTarget(Name=file): Opening /Users/admin/Documents/logs/logfile.log with allowFileSharedWriting=False
+2024-06-19 13:51:21.4157 Info Shutdown() called. Logger closing...
+2024-06-19 13:51:21.4157 Info Closing old configuration.
+2024-06-19 13:51:21.4176 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 13:51:21.4176 Trace Flushing all 1 targets...
+2024-06-19 13:51:21.4187 Trace ForEachItemInParallel() 1 items
+2024-06-19 13:51:21.4187 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 13:51:21.4197 Trace Continuation invoked: 
+2024-06-19 13:51:21.4197 Trace Parallel task completed. 0 items remaining
+2024-06-19 13:51:21.4197 Debug Flush completed
+2024-06-19 13:51:21.4197 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 13:51:21.4197 Debug Closing logging configuration...
+2024-06-19 13:51:21.4197 Trace Closing FileTarget(Name=file)
+2024-06-19 13:51:21.4206 Debug FileTarget(Name=file): Closing...
+2024-06-19 13:51:21.4206 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/Documents/logs/logfile.log, isArchiving: False'
+2024-06-19 13:51:21.4217 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:51:21.4217 Trace FileTarget: Closing '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:51:21.4217 Debug FileTarget(Name=file): Closed.
+2024-06-19 13:51:21.4226 Trace Closing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:51:21.4226 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${level}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:51:21.4226 Trace Closing Layout Renderer: ${message}
+2024-06-19 13:51:21.4226 Debug Finished closing logging configuration.
+2024-06-19 13:51:21.4226 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 13:51:21.4242 Info Logger has been closed down.
+2024-06-19 13:51:21.4429 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 13:51:21.4429 Info LogFactory has been closed.
+2024-06-19 13:53:09.0220 Debug Message Template Auto Format enabled
+2024-06-19 13:53:09.0454 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.0454 Trace Scanning SpecialFolderLayoutRenderer 'Layout Renderer: ${specialfolder}'
+2024-06-19 13:53:09.0480 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.0480 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:53:09.0483 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.0483 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:53:09.0483 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.0483 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:53:09.0483 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.0483 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:53:09.0483 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 13:53:09.0483 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 13:53:09.0483 Trace ParseRulesElement
+2024-06-19 13:53:09.0520 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 13:53:09.1096 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 13:53:09.1096 Debug --- NLog configuration dump ---
+2024-06-19 13:53:09.1096 Debug Targets:
+2024-06-19 13:53:09.1104 Debug FileTarget(Name=file)
+2024-06-19 13:53:09.1104 Debug Rules:
+2024-06-19 13:53:09.1104 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 13:53:09.1104 Debug --- End of NLog configuration dump ---
+2024-06-19 13:53:09.1113 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 13:53:09.1113 Trace FindReachableObject<System.Object>:
+2024-06-19 13:53:09.1113 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 13:53:09.1113 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 13:53:09.1125 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 13:53:09.1125 Trace   Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 13:53:09.1125 Trace   Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 13:53:09.1125 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:53:09.1125 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1125 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 13:53:09.1125 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 13:53:09.1125 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:53:09.1132 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:53:09.1132 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1132 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:53:09.1132 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1132 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:53:09.1132 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1132 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:53:09.1132 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 13:53:09.1132 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 13:53:09.1142 Info Validating config: TargetNames=file, ConfigItems=12, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 13:53:09.1142 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 13:53:09.1157 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 13:53:09.1157 Trace Initializing Layout Renderer: ${message}
+2024-06-19 13:53:09.1157 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:53:09.1157 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 13:53:09.1157 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:53:09.1157 Trace Initializing Layout Renderer: ${level}
+2024-06-19 13:53:09.1162 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:53:09.1162 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 13:53:09.1162 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 13:53:09.1162 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.1162 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 13:53:09.1162 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:53:09.1162 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 13:53:09.1162 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1162 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 13:53:09.1172 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1172 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 13:53:09.1172 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1172 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 13:53:09.1172 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 13:53:09.1172 Trace Initializing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 13:53:09.1172 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 13:53:09.1172 Trace Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 13:53:09.1172 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 13:53:09.1172 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 13:53:09.1182 Trace Initializing FileTarget(Name=file)
+2024-06-19 13:53:09.1182 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 13:53:09.1182 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 13:53:09.1182 Trace  Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 13:53:09.1182 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 13:53:09.1182 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 13:53:09.1196 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 13:53:09.1196 Info Configuration initialized.
+2024-06-19 13:53:09.1228 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 13:53:09.1228 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 13:53:09.1228 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 13:53:09.1228 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 13:53:09.1228 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 13:53:09.1228 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 13:53:09.1232 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 13:53:09.1269 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:53:09.1281 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:53:09.1285 Trace FileTarget(Name=file): Opening /Users/admin/Documents/logs/logfile.log with allowFileSharedWriting=False
+2024-06-19 13:53:10.5050 Info Shutdown() called. Logger closing...
+2024-06-19 13:53:10.5053 Info Closing old configuration.
+2024-06-19 13:53:10.5067 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 13:53:10.5067 Trace Flushing all 1 targets...
+2024-06-19 13:53:10.5077 Trace ForEachItemInParallel() 1 items
+2024-06-19 13:53:10.5082 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 13:53:10.5082 Trace Continuation invoked: 
+2024-06-19 13:53:10.5082 Trace Parallel task completed. 0 items remaining
+2024-06-19 13:53:10.5082 Debug Flush completed
+2024-06-19 13:53:10.5082 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 13:53:10.5093 Debug Closing logging configuration...
+2024-06-19 13:53:10.5093 Trace Closing FileTarget(Name=file)
+2024-06-19 13:53:10.5093 Debug FileTarget(Name=file): Closing...
+2024-06-19 13:53:10.5106 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/Documents/logs/logfile.log, isArchiving: False'
+2024-06-19 13:53:10.5112 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:53:10.5112 Trace FileTarget: Closing '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 13:53:10.5112 Debug FileTarget(Name=file): Closed.
+2024-06-19 13:53:10.5123 Trace Closing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:53:10.5123 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${level}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${literal}
+2024-06-19 13:53:10.5123 Trace Closing Layout Renderer: ${message}
+2024-06-19 13:53:10.5123 Debug Finished closing logging configuration.
+2024-06-19 13:53:10.5123 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 13:53:10.5137 Info Logger has been closed down.
+2024-06-19 13:53:10.5330 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 13:53:10.5336 Info LogFactory has been closed.
+2024-06-19 14:03:58.9827 Debug Message Template Auto Format enabled
+2024-06-19 14:03:59.0049 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0057 Trace Scanning SpecialFolderLayoutRenderer 'Layout Renderer: ${specialfolder}'
+2024-06-19 14:03:59.0080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0080 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:03:59.0083 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0083 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:03:59.0083 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0083 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:03:59.0083 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0083 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:03:59.0083 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:03:59.0083 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:03:59.0083 Trace ParseRulesElement
+2024-06-19 14:03:59.0120 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:03:59.0734 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:03:59.0734 Debug --- NLog configuration dump ---
+2024-06-19 14:03:59.0734 Debug Targets:
+2024-06-19 14:03:59.0742 Debug FileTarget(Name=file)
+2024-06-19 14:03:59.0742 Debug Rules:
+2024-06-19 14:03:59.0742 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:03:59.0742 Debug --- End of NLog configuration dump ---
+2024-06-19 14:03:59.0755 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:03:59.0755 Trace FindReachableObject<System.Object>:
+2024-06-19 14:03:59.0755 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:03:59.0755 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:03:59.0764 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:03:59.0764 Trace   Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 14:03:59.0764 Trace   Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 14:03:59.0764 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:03:59.0764 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0764 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:03:59.0764 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:03:59.0764 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:03:59.0764 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:03:59.0772 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0772 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:03:59.0772 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0772 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:03:59.0772 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0772 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:03:59.0772 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:03:59.0772 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:03:59.0772 Info Validating config: TargetNames=file, ConfigItems=12, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:03:59.0784 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:03:59.0794 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:03:59.0794 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:03:59.0794 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:03:59.0806 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0806 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:03:59.0806 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:03:59.0806 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:03:59.0806 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0806 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:03:59.0806 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0806 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:03:59.0806 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0812 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:03:59.0812 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:03:59.0812 Trace Initializing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 14:03:59.0812 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:03:59.0812 Trace Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 14:03:59.0822 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:03:59.0822 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:03:59.0822 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:03:59.0822 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:03:59.0822 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:03:59.0832 Trace  Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 14:03:59.0832 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:03:59.0832 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:03:59.0832 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:03:59.0844 Info Configuration initialized.
+2024-06-19 14:03:59.0873 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 14:03:59.0873 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 14:03:59.0873 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 14:03:59.0873 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 14:03:59.0873 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 14:03:59.0873 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 14:03:59.0873 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 14:03:59.0913 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:03:59.0927 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:03:59.0927 Trace FileTarget(Name=file): Opening /Users/admin/Documents/logs/logfile.log with allowFileSharedWriting=False
+2024-06-19 14:04:05.3922 Info Shutdown() called. Logger closing...
+2024-06-19 14:04:05.3922 Info Closing old configuration.
+2024-06-19 14:04:05.3939 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:04:05.3944 Trace Flushing all 1 targets...
+2024-06-19 14:04:05.3944 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:04:05.3955 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:04:05.3955 Trace Continuation invoked: 
+2024-06-19 14:04:05.3955 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:04:05.3963 Debug Flush completed
+2024-06-19 14:04:05.3963 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:04:05.3963 Debug Closing logging configuration...
+2024-06-19 14:04:05.3963 Trace Closing FileTarget(Name=file)
+2024-06-19 14:04:05.3963 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:04:05.3975 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/Documents/logs/logfile.log, isArchiving: False'
+2024-06-19 14:04:05.3975 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:04:05.3975 Trace FileTarget: Closing '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:04:05.3987 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:04:05.3987 Trace Closing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 14:04:05.3987 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:04:05.3987 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:04:05.3987 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:04:05.3987 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:04:05.3987 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:04:05.3992 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:04:05.3992 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:04:05.3992 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:04:05.3992 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:04:05.3992 Debug Finished closing logging configuration.
+2024-06-19 14:04:05.3992 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:04:05.4003 Info Logger has been closed down.
+2024-06-19 14:04:05.4203 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:04:05.4203 Info LogFactory has been closed.
+2024-06-19 14:05:45.6686 Debug Message Template Auto Format enabled
+2024-06-19 14:05:45.6910 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.6919 Trace Scanning SpecialFolderLayoutRenderer 'Layout Renderer: ${specialfolder}'
+2024-06-19 14:05:45.6940 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.6940 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:05:45.6940 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.6940 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:05:45.6944 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.6944 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:05:45.6944 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.6944 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:05:45.6944 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:05:45.6944 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:05:45.6944 Trace ParseRulesElement
+2024-06-19 14:05:45.6979 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:05:45.7570 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:05:45.7570 Debug --- NLog configuration dump ---
+2024-06-19 14:05:45.7570 Debug Targets:
+2024-06-19 14:05:45.7577 Debug FileTarget(Name=file)
+2024-06-19 14:05:45.7577 Debug Rules:
+2024-06-19 14:05:45.7577 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:05:45.7577 Debug --- End of NLog configuration dump ---
+2024-06-19 14:05:45.7590 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:05:45.7590 Trace FindReachableObject<System.Object>:
+2024-06-19 14:05:45.7595 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:05:45.7595 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:05:45.7595 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:05:45.7595 Trace   Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 14:05:45.7595 Trace   Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 14:05:45.7595 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:05:45.7595 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7606 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:05:45.7606 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:05:45.7606 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:05:45.7606 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:05:45.7606 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7606 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:05:45.7606 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7606 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:05:45.7606 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7606 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:05:45.7606 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:05:45.7606 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:05:45.7618 Info Validating config: TargetNames=file, ConfigItems=12, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:05:45.7618 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:05:45.7632 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:05:45.7632 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:05:45.7635 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:05:45.7635 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:05:45.7635 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:05:45.7635 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:05:45.7635 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:05:45.7635 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:05:45.7635 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:05:45.7635 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.7635 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:05:45.7644 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:05:45.7644 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:05:45.7644 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7644 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:05:45.7644 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7644 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:05:45.7644 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7644 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:05:45.7655 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:05:45.7655 Trace Initializing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 14:05:45.7655 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:05:45.7655 Trace Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 14:05:45.7655 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:05:45.7655 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:05:45.7655 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:05:45.7666 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:05:45.7666 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:05:45.7666 Trace  Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 14:05:45.7666 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:05:45.7666 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:05:45.7675 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:05:45.7675 Info Configuration initialized.
+2024-06-19 14:05:45.7706 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 14:05:45.7706 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 14:05:45.7706 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 14:05:45.7706 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 14:05:45.7706 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 14:05:45.7706 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 14:05:45.7706 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 14:05:45.7749 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:05:45.7762 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:05:45.7766 Trace FileTarget(Name=file): Opening /Users/admin/Documents/logs/logfile.log with allowFileSharedWriting=False
+2024-06-19 14:05:52.1726 Info Shutdown() called. Logger closing...
+2024-06-19 14:05:52.1726 Info Closing old configuration.
+2024-06-19 14:05:52.1744 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:05:52.1749 Trace Flushing all 1 targets...
+2024-06-19 14:05:52.1749 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:05:52.1760 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:05:52.1760 Trace Continuation invoked: 
+2024-06-19 14:05:52.1765 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:05:52.1765 Debug Flush completed
+2024-06-19 14:05:52.1765 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:05:52.1765 Debug Closing logging configuration...
+2024-06-19 14:05:52.1765 Trace Closing FileTarget(Name=file)
+2024-06-19 14:05:52.1765 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:05:52.1781 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/Documents/logs/logfile.log, isArchiving: False'
+2024-06-19 14:05:52.1786 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:05:52.1786 Trace FileTarget: Closing '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:05:52.1786 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:05:52.1795 Trace Closing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:05:52.1795 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:05:52.1795 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:05:52.1795 Debug Finished closing logging configuration.
+2024-06-19 14:05:52.1795 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:05:52.1809 Info Logger has been closed down.
+2024-06-19 14:05:52.2009 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:05:52.2015 Info LogFactory has been closed.
+2024-06-19 14:06:11.5258 Debug Message Template Auto Format enabled
+2024-06-19 14:06:11.5464 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.5473 Trace Scanning SpecialFolderLayoutRenderer 'Layout Renderer: ${specialfolder}'
+2024-06-19 14:06:11.5492 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.5492 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:06:11.5492 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.5495 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:06:11.5495 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.5495 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:06:11.5495 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.5495 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:06:11.5495 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:06:11.5495 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:06:11.5495 Trace ParseRulesElement
+2024-06-19 14:06:11.5530 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:06:11.6124 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:06:11.6128 Debug --- NLog configuration dump ---
+2024-06-19 14:06:11.6128 Debug Targets:
+2024-06-19 14:06:11.6128 Debug FileTarget(Name=file)
+2024-06-19 14:06:11.6128 Debug Rules:
+2024-06-19 14:06:11.6137 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:06:11.6137 Debug --- End of NLog configuration dump ---
+2024-06-19 14:06:11.6137 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:06:11.6137 Trace FindReachableObject<System.Object>:
+2024-06-19 14:06:11.6145 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:06:11.6145 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:06:11.6145 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:06:11.6145 Trace   Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 14:06:11.6145 Trace   Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 14:06:11.6145 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:06:11.6145 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6155 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:06:11.6155 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:06:11.6155 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:06:11.6155 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:06:11.6155 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6155 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:06:11.6155 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6155 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:06:11.6155 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6155 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:06:11.6155 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:06:11.6155 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:06:11.6167 Info Validating config: TargetNames=file, ConfigItems=12, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:06:11.6167 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:06:11.6182 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:06:11.6182 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:06:11.6185 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:06:11.6185 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:06:11.6185 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:06:11.6185 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:06:11.6185 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:06:11.6185 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:06:11.6185 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:06:11.6185 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.6185 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:06:11.6195 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:06:11.6195 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:06:11.6195 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6195 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:06:11.6195 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6195 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:06:11.6195 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6195 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:06:11.6195 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:06:11.6205 Trace Initializing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 14:06:11.6205 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:06:11.6205 Trace Scanning SimpleLayout '${specialfolder:folder=MyDocuments}/logs/logfile.log'
+2024-06-19 14:06:11.6205 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:06:11.6205 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:06:11.6205 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:06:11.6205 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:06:11.6205 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:06:11.6215 Trace  Scanning Property FileName '${specialfolder:folder=MyDocuments}/logs/logfile.log' NLog.Layouts.Layout
+2024-06-19 14:06:11.6215 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:06:11.6215 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:06:11.6215 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:06:11.6226 Info Configuration initialized.
+2024-06-19 14:06:11.6252 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 14:06:11.6252 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 14:06:11.6252 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 14:06:11.6252 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 14:06:11.6252 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 14:06:11.6255 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 14:06:11.6255 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 14:06:11.6291 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:06:11.6304 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:06:11.6308 Trace FileTarget(Name=file): Opening /Users/admin/Documents/logs/logfile.log with allowFileSharedWriting=False
+2024-06-19 14:06:18.1769 Info Shutdown() called. Logger closing...
+2024-06-19 14:06:18.1769 Info Closing old configuration.
+2024-06-19 14:06:18.1787 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:06:18.1787 Trace Flushing all 1 targets...
+2024-06-19 14:06:18.1800 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:06:18.1806 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:06:18.1806 Trace Continuation invoked: 
+2024-06-19 14:06:18.1806 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:06:18.1806 Debug Flush completed
+2024-06-19 14:06:18.1815 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:06:18.1815 Debug Closing logging configuration...
+2024-06-19 14:06:18.1815 Trace Closing FileTarget(Name=file)
+2024-06-19 14:06:18.1815 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:06:18.1815 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/Documents/logs/logfile.log, isArchiving: False'
+2024-06-19 14:06:18.1829 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:06:18.1829 Trace FileTarget: Closing '/Users/admin/Documents/logs/logfile.log'
+2024-06-19 14:06:18.1837 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:06:18.1837 Trace Closing ${specialfolder:folder=MyDocuments}/logs/logfile.log
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:06:18.1837 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:06:18.1837 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:06:18.1837 Debug Finished closing logging configuration.
+2024-06-19 14:06:18.1846 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:06:18.1846 Info Logger has been closed down.
+2024-06-19 14:06:18.2050 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:06:18.2058 Info LogFactory has been closed.
+2024-06-19 14:09:03.3084 Debug Message Template Auto Format enabled
+2024-06-19 14:09:03.3218 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:09:03.3223 Trace Try find 'NLog.Extensions.Logging' in current domain
+2024-06-19 14:09:03.3223 Trace Haven't found' 'NLog.Extensions.Logging' in current domain
+2024-06-19 14:09:03.3230 Error Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2024-06-19 14:09:03.3257 Error Exception when loading configuration /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2024-06-19 14:09:03.3259 Error Error has been raised. Exception: NLog.NLogConfigurationException: Exception when loading configuration /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+ ---> NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   at NLog.Config.XmlLoggingConfiguration..ctor(XmlReader reader, String fileName, LogFactory logFactory)
+   at NLog.Config.LoggingConfigurationFileLoader.LoadXmlLoggingConfiguration(XmlReader xmlReader, String configFile, LogFactory logFactory)
+2024-06-19 14:09:03.3259 Error Failed loading from config file location: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config Exception: NLog.NLogConfigurationException: Exception when loading configuration /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+ ---> NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   at NLog.Config.XmlLoggingConfiguration..ctor(XmlReader reader, String fileName, LogFactory logFactory)
+   at NLog.Config.LoggingConfigurationFileLoader.LoadXmlLoggingConfiguration(XmlReader xmlReader, String configFile, LogFactory logFactory)
+   at NLog.Config.LoggingConfigurationFileLoader.LoadXmlLoggingConfigurationFile(LogFactory logFactory, String configFile)
+   at NLog.Config.LoggingConfigurationFileLoader.TryLoadLoggingConfiguration(LogFactory logFactory, String configFile, LoggingConfiguration& config)
+2024-06-19 14:09:03.3576 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:09:03.3585 Info LogFactory has been closed.
+2024-06-19 14:09:16.5245 Debug Message Template Auto Format enabled
+2024-06-19 14:09:16.5377 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:09:16.5382 Trace Try find 'NLog.Extensions.Logging' in current domain
+2024-06-19 14:09:16.5382 Trace Haven't found' 'NLog.Extensions.Logging' in current domain
+2024-06-19 14:09:16.5389 Error Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2024-06-19 14:09:16.5413 Error Exception when loading configuration /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2024-06-19 14:09:16.5413 Error Error has been raised. Exception: NLog.NLogConfigurationException: Exception when loading configuration /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+ ---> NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   at NLog.Config.XmlLoggingConfiguration..ctor(XmlReader reader, String fileName, LogFactory logFactory)
+   at NLog.Config.LoggingConfigurationFileLoader.LoadXmlLoggingConfiguration(XmlReader xmlReader, String configFile, LogFactory logFactory)
+2024-06-19 14:09:16.5413 Error Failed loading from config file location: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config Exception: NLog.NLogConfigurationException: Exception when loading configuration /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+ ---> NLog.NLogConfigurationException: Error loading extensions: NLog.Extensions.Logging
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'NLog.Extensions.Logging, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String prefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionsElement(ValidatedConfigurationElement extensionsElement, String baseDirectory)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(XmlLoggingConfigurationElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   at NLog.Config.XmlLoggingConfiguration..ctor(XmlReader reader, String fileName, LogFactory logFactory)
+   at NLog.Config.LoggingConfigurationFileLoader.LoadXmlLoggingConfiguration(XmlReader xmlReader, String configFile, LogFactory logFactory)
+   at NLog.Config.LoggingConfigurationFileLoader.LoadXmlLoggingConfigurationFile(LogFactory logFactory, String configFile)
+   at NLog.Config.LoggingConfigurationFileLoader.TryLoadLoggingConfiguration(LogFactory logFactory, String configFile, LoggingConfiguration& config)
+2024-06-19 14:09:16.5735 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:09:16.5744 Info LogFactory has been closed.
+2024-06-19 14:29:18.4314 Debug Message Template Auto Format enabled
+2024-06-19 14:29:18.4451 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:29:18.4463 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-19 14:29:18.4463 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-19 14:29:18.4495 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-19 14:29:18.4571 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4571 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-19 14:29:18.4578 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4578 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:29:18.4590 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4590 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:29:18.4590 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4590 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:29:18.4599 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4599 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:29:18.4599 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4599 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:29:18.4599 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4599 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:29:18.4599 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:29:18.4599 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:29:18.4607 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4607 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:29:18.4607 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4607 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:29:18.4607 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4607 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:29:18.4607 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4607 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:29:18.4607 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.4607 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:29:18.4607 Debug Adding target NLog.Targets.ConsoleTarget(Name=console)
+2024-06-19 14:29:18.4607 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2024-06-19 14:29:18.4607 Trace ParseRulesElement
+2024-06-19 14:29:18.4636 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:29:18.5240 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:29:18.5240 Debug --- NLog configuration dump ---
+2024-06-19 14:29:18.5240 Debug Targets:
+2024-06-19 14:29:18.5247 Debug FileTarget(Name=file)
+2024-06-19 14:29:18.5247 Debug ConsoleTarget(Name=console)
+2024-06-19 14:29:18.5247 Debug Rules:
+2024-06-19 14:29:18.5247 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file console ]
+2024-06-19 14:29:18.5247 Debug --- End of NLog configuration dump ---
+2024-06-19 14:29:18.5257 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:29:18.5257 Trace FindReachableObject<System.Object>:
+2024-06-19 14:29:18.5257 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file console ]'
+2024-06-19 14:29:18.5257 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:29:18.5257 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:29:18.5267 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:29:18.5267 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:29:18.5267 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:29:18.5267 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5267 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:29:18.5267 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5267 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:29:18.5267 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5267 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:29:18.5267 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:29:18.5267 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:29:18.5267 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:29:18.5267 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5267 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:29:18.5267 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5267 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:29:18.5276 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5276 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:29:18.5276 Trace  Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2024-06-19 14:29:18.5276 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}|${mdlc:item=testName}' NLog.Layouts.Layout
+2024-06-19 14:29:18.5276 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}|${mdlc:item=testName}'
+2024-06-19 14:29:18.5276 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:29:18.5276 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:29:18.5276 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5276 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:29:18.5276 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5276 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:29:18.5276 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5276 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:29:18.5276 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5276 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:29:18.5276 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:29:18.5276 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:29:18.5288 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:29:18.5288 Debug Unused target checking is started... Rule Count: 1, Target Count: 2
+2024-06-19 14:29:18.5302 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 2, Unused Target Count: 0
+2024-06-19 14:29:18.5302 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 14:29:18.5302 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5306 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:29:18.5306 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}|${mdlc:item=testName}
+2024-06-19 14:29:18.5306 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.5306 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}|${mdlc:item=testName}'
+2024-06-19 14:29:18.5306 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:29:18.5317 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:29:18.5317 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5317 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:29:18.5317 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5317 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:29:18.5317 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5317 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:29:18.5317 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5317 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:29:18.5317 Trace Initializing ConsoleTarget(Name=console)
+2024-06-19 14:29:18.5332 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:29:18.5332 Trace Scanning ConsoleTarget 'ConsoleTarget(Name=console)'
+2024-06-19 14:29:18.5332 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}|${mdlc:item=testName}' NLog.Layouts.Layout
+2024-06-19 14:29:18.5332 Trace ConsoleTarget(Name=console) has 1 layouts
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:29:18.5336 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:29:18.5336 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.5336 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:29:18.5336 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:29:18.5336 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:29:18.5336 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5336 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:29:18.5336 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5336 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:29:18.5336 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5336 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-19 14:29:18.5336 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:29:18.5346 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:29:18.5346 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:29:18.5346 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:29:18.5346 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:29:18.5346 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5346 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:29:18.5346 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5346 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:29:18.5346 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:29:18.5346 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:29:18.5346 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:29:18.5346 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:29:18.5346 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:29:18.5346 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:29:18.5346 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:29:18.5357 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:29:18.5357 Info Configuration initialized.
+2024-06-19 14:29:18.5386 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 14:29:18.5386 Debug Logger SeleniumTestProject.BaseTest [Trace] => file console
+2024-06-19 14:29:18.5386 Debug Logger SeleniumTestProject.BaseTest [Debug] => file console
+2024-06-19 14:29:18.5386 Debug Logger SeleniumTestProject.BaseTest [Info] => file console
+2024-06-19 14:29:18.5386 Debug Logger SeleniumTestProject.BaseTest [Warn] => file console
+2024-06-19 14:29:18.5386 Debug Logger SeleniumTestProject.BaseTest [Error] => file console
+2024-06-19 14:29:18.5386 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file console
+2024-06-19 14:29:18.5434 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:29:18.5446 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:29:18.5471 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log with allowFileSharedWriting=False
+2024-06-19 14:29:18.5478 Debug FileTarget(Name=file): DirectoryNotFoundException - Attempting to create directory for FileName: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log
+2024-06-19 14:29:24.1398 Info Shutdown() called. Logger closing...
+2024-06-19 14:29:24.1398 Info Closing old configuration.
+2024-06-19 14:29:24.1417 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:29:24.1417 Trace Flushing all 2 targets...
+2024-06-19 14:29:24.1429 Trace ForEachItemInParallel() 2 items
+2024-06-19 14:29:24.1429 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:29:24.1437 Trace Continuation invoked: 
+2024-06-19 14:29:24.1437 Trace Continuation invoked: 
+2024-06-19 14:29:24.1437 Trace Parallel task completed. 1 items remaining
+2024-06-19 14:29:24.1437 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:29:24.1437 Debug Flush completed
+2024-06-19 14:29:24.1437 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:29:24.1437 Debug Closing logging configuration...
+2024-06-19 14:29:24.1446 Trace Closing FileTarget(Name=file)
+2024-06-19 14:29:24.1446 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:29:24.1446 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log, isArchiving: False'
+2024-06-19 14:29:24.1457 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:29:24.1457 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:29:24.1457 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:29:24.1457 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${shortdate}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1466 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:29:24.1466 Trace Closing ConsoleTarget(Name=console)
+2024-06-19 14:29:24.1466 Debug ConsoleTarget(Name=console): Closing...
+2024-06-19 14:29:24.1466 Debug ConsoleTarget(Name=console): Closed.
+2024-06-19 14:29:24.1466 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}|${mdlc:item=testName}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:29:24.1466 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:29:24.1476 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 14:29:24.1476 Debug Finished closing logging configuration.
+2024-06-19 14:29:24.1476 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:29:24.1487 Info Logger has been closed down.
+2024-06-19 14:29:24.1664 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:29:24.1669 Info LogFactory has been closed.
+2024-06-19 14:32:28.0071 Debug Message Template Auto Format enabled
+2024-06-19 14:32:28.0214 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:32:28.0228 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-19 14:32:28.0232 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-19 14:32:28.0260 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-19 14:32:28.0346 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0352 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-19 14:32:28.0360 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0360 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:32:28.0360 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0360 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:32:28.0376 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0376 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:32:28.0376 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0380 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:32:28.0380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0380 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:32:28.0380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.0380 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:32:28.0380 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:32:28.0380 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:32:28.0380 Trace ParseRulesElement
+2024-06-19 14:32:28.0410 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:32:28.1015 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:32:28.1015 Debug --- NLog configuration dump ---
+2024-06-19 14:32:28.1015 Debug Targets:
+2024-06-19 14:32:28.1022 Debug FileTarget(Name=file)
+2024-06-19 14:32:28.1022 Debug Rules:
+2024-06-19 14:32:28.1022 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:32:28.1022 Debug --- End of NLog configuration dump ---
+2024-06-19 14:32:28.1033 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:32:28.1033 Trace FindReachableObject<System.Object>:
+2024-06-19 14:32:28.1033 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:32:28.1042 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:32:28.1042 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:32:28.1042 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:32:28.1042 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:32:28.1042 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:32:28.1042 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1042 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:32:28.1050 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1050 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:32:28.1050 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1050 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:32:28.1050 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:32:28.1050 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:32:28.1050 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:32:28.1050 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1050 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:32:28.1050 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1050 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:32:28.1050 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1050 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:32:28.1050 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:32:28.1050 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:32:28.1063 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:32:28.1063 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:32:28.1077 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:32:28.1077 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:32:28.1077 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:32:28.1080 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:32:28.1080 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:32:28.1080 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:32:28.1080 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:32:28.1080 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:32:28.1080 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:32:28.1080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.1080 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:32:28.1080 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:32:28.1091 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:32:28.1091 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1091 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:32:28.1091 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1091 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:32:28.1091 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1091 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:32:28.1102 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:32:28.1102 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 14:32:28.1102 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:32:28.1102 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-19 14:32:28.1102 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:32:28.1102 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:32:28.1102 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:32:28.1102 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:32:28.1102 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:32:28.1102 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1102 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:32:28.1102 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1102 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:32:28.1102 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:32:28.1102 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:32:28.1117 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:32:28.1117 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:32:28.1117 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:32:28.1117 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:32:28.1120 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:32:28.1120 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:32:28.1130 Info Configuration initialized.
+2024-06-19 14:32:28.1159 Debug Targets configured when LogLevel >= Trace for Logger: SeleniumTestProject.BaseTest
+2024-06-19 14:32:28.1161 Debug Logger SeleniumTestProject.BaseTest [Trace] => file
+2024-06-19 14:32:28.1161 Debug Logger SeleniumTestProject.BaseTest [Debug] => file
+2024-06-19 14:32:28.1161 Debug Logger SeleniumTestProject.BaseTest [Info] => file
+2024-06-19 14:32:28.1161 Debug Logger SeleniumTestProject.BaseTest [Warn] => file
+2024-06-19 14:32:28.1161 Debug Logger SeleniumTestProject.BaseTest [Error] => file
+2024-06-19 14:32:28.1161 Debug Logger SeleniumTestProject.BaseTest [Fatal] => file
+2024-06-19 14:32:28.1213 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:32:28.1226 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:32:28.1232 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log with allowFileSharedWriting=False
+2024-06-19 14:32:33.4760 Info Shutdown() called. Logger closing...
+2024-06-19 14:32:33.4760 Info Closing old configuration.
+2024-06-19 14:32:33.4778 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:32:33.4784 Trace Flushing all 1 targets...
+2024-06-19 14:32:33.4790 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:32:33.4790 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:32:33.4790 Trace Continuation invoked: 
+2024-06-19 14:32:33.4790 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:32:33.4802 Debug Flush completed
+2024-06-19 14:32:33.4802 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:32:33.4802 Debug Closing logging configuration...
+2024-06-19 14:32:33.4802 Trace Closing FileTarget(Name=file)
+2024-06-19 14:32:33.4851 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:32:33.4859 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log, isArchiving: False'
+2024-06-19 14:32:33.4859 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:32:33.4859 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:32:33.4871 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:32:33.4871 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${shortdate}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:32:33.4871 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:32:33.4871 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:32:33.4880 Debug Finished closing logging configuration.
+2024-06-19 14:32:33.4880 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:32:33.4880 Info Logger has been closed down.
+2024-06-19 14:32:33.5058 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:32:33.5067 Info LogFactory has been closed.
+2024-06-19 14:51:33.3931 Debug Message Template Auto Format enabled
+2024-06-19 14:51:33.4066 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:51:33.4081 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-19 14:51:33.4085 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-19 14:51:33.4114 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-19 14:51:33.4192 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4192 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-19 14:51:33.4206 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4206 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:51:33.4213 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4213 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:51:33.4213 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4213 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:51:33.4224 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4224 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:51:33.4224 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4224 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:51:33.4224 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4224 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:51:33.4224 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:51:33.4224 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:51:33.4234 Trace ParseRulesElement
+2024-06-19 14:51:33.4258 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:51:33.4855 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:51:33.4855 Debug --- NLog configuration dump ---
+2024-06-19 14:51:33.4855 Debug Targets:
+2024-06-19 14:51:33.4855 Debug FileTarget(Name=file)
+2024-06-19 14:51:33.4862 Debug Rules:
+2024-06-19 14:51:33.4862 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:51:33.4862 Debug --- End of NLog configuration dump ---
+2024-06-19 14:51:33.4862 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:51:33.4874 Trace FindReachableObject<System.Object>:
+2024-06-19 14:51:33.4874 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:51:33.4874 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:51:33.4874 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:51:33.4883 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:51:33.4883 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:51:33.4883 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:51:33.4883 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4883 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:51:33.4883 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4883 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:51:33.4883 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4883 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:51:33.4883 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:51:33.4883 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:51:33.4883 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:51:33.4883 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4883 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:51:33.4883 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4883 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:51:33.4883 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4892 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:51:33.4892 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:51:33.4892 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:51:33.4892 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:51:33.4902 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:51:33.4913 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:51:33.4913 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:51:33.4913 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:51:33.4926 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4926 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:51:33.4926 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:51:33.4926 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:51:33.4926 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4926 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:51:33.4926 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4926 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:51:33.4926 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4926 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:51:33.4939 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:51:33.4939 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 14:51:33.4939 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:51:33.4939 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-19 14:51:33.4942 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:51:33.4942 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:51:33.4942 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:51:33.4942 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:51:33.4942 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:51:33.4942 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4942 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:51:33.4942 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4942 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:51:33.4942 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:51:33.4942 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:51:33.4954 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:51:33.4954 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:51:33.4954 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:51:33.4954 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:51:33.4954 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:51:33.4954 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:51:33.4965 Info Configuration initialized.
+2024-06-19 14:51:34.2194 Debug Targets configured when LogLevel >= Trace for Logger: TestLogger.SeleniumTestProject.SampleApplicationOne
+2024-06-19 14:51:34.2194 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Trace] => file
+2024-06-19 14:51:34.2194 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Debug] => file
+2024-06-19 14:51:34.2194 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Info] => file
+2024-06-19 14:51:34.2194 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Warn] => file
+2024-06-19 14:51:34.2239 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Error] => file
+2024-06-19 14:51:34.2309 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Fatal] => file
+2024-06-19 14:51:34.2435 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:51:34.2454 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:51:34.2485 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log with allowFileSharedWriting=False
+2024-06-19 14:51:39.1345 Info Shutdown() called. Logger closing...
+2024-06-19 14:51:39.1345 Info Closing old configuration.
+2024-06-19 14:51:39.1364 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:51:39.1364 Trace Flushing all 1 targets...
+2024-06-19 14:51:39.1373 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:51:39.1373 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:51:39.1383 Trace Continuation invoked: 
+2024-06-19 14:51:39.1383 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:51:39.1383 Debug Flush completed
+2024-06-19 14:51:39.1383 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:51:39.1383 Debug Closing logging configuration...
+2024-06-19 14:51:39.1383 Trace Closing FileTarget(Name=file)
+2024-06-19 14:51:39.1383 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:51:39.1396 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log, isArchiving: False'
+2024-06-19 14:51:39.1445 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:51:39.1445 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:51:39.1456 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:51:39.1456 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:51:39.1456 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:51:39.1456 Trace Closing Layout Renderer: ${shortdate}
+2024-06-19 14:51:39.1456 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:51:39.1456 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 14:51:39.1456 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:51:39.1456 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:51:39.1456 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:51:39.1462 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:51:39.1462 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:51:39.1462 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:51:39.1462 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:51:39.1462 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:51:39.1462 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:51:39.1462 Debug Finished closing logging configuration.
+2024-06-19 14:51:39.1462 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:51:39.1478 Info Logger has been closed down.
+2024-06-19 14:51:39.1672 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:51:39.1681 Info LogFactory has been closed.
+2024-06-19 14:56:44.0818 Debug Message Template Auto Format enabled
+2024-06-19 14:56:44.0961 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:56:44.0979 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-19 14:56:44.0979 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-19 14:56:44.1016 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-19 14:56:44.1098 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1104 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-19 14:56:44.1104 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1104 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:56:44.1119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1119 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:56:44.1129 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1129 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:56:44.1129 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1134 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:56:44.1134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1134 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:56:44.1134 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1134 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:56:44.1134 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:56:44.1134 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:56:44.1134 Trace ParseRulesElement
+2024-06-19 14:56:44.1165 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:56:44.1793 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:56:44.1796 Debug --- NLog configuration dump ---
+2024-06-19 14:56:44.1796 Debug Targets:
+2024-06-19 14:56:44.1796 Debug FileTarget(Name=file)
+2024-06-19 14:56:44.1796 Debug Rules:
+2024-06-19 14:56:44.1805 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:56:44.1805 Debug --- End of NLog configuration dump ---
+2024-06-19 14:56:44.1805 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:56:44.1805 Trace FindReachableObject<System.Object>:
+2024-06-19 14:56:44.1805 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:56:44.1816 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:56:44.1816 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:56:44.1816 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:56:44.1816 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:56:44.1816 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:56:44.1816 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1816 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:56:44.1816 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1816 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:56:44.1824 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1824 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:56:44.1824 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:56:44.1824 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:56:44.1824 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:56:44.1824 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1824 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:56:44.1824 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1824 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:56:44.1824 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1824 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:56:44.1824 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:56:44.1824 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:56:44.1837 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:56:44.1837 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:56:44.1851 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:56:44.1855 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:56:44.1855 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:56:44.1866 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1866 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:56:44.1866 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:56:44.1866 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:56:44.1866 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1866 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:56:44.1866 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1866 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:56:44.1866 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1866 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:56:44.1877 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:56:44.1877 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 14:56:44.1877 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:56:44.1877 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-19 14:56:44.1877 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:56:44.1877 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:56:44.1877 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:56:44.1877 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:56:44.1877 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:56:44.1877 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1877 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:56:44.1877 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1877 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:56:44.1884 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:56:44.1884 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:56:44.1884 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:56:44.1884 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:56:44.1884 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:56:44.1884 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:56:44.1895 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:56:44.1895 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:56:44.1895 Info Configuration initialized.
+2024-06-19 14:56:44.8993 Debug Targets configured when LogLevel >= Trace for Logger: TestLogger.SeleniumTestProject.SampleApplicationOne
+2024-06-19 14:56:44.9024 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Trace] => file
+2024-06-19 14:56:44.9024 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Debug] => file
+2024-06-19 14:56:44.9075 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Info] => file
+2024-06-19 14:56:44.9075 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Warn] => file
+2024-06-19 14:56:44.9075 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Error] => file
+2024-06-19 14:56:44.9120 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Fatal] => file
+2024-06-19 14:56:48.2851 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/SubmitFirstNameTests.log'
+2024-06-19 14:56:48.2871 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/SubmitFirstNameTests.log'
+2024-06-19 14:56:48.2881 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/SubmitFirstNameTests.log with allowFileSharedWriting=False
+2024-06-19 14:56:51.2459 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:56:51.2465 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:56:51.2465 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log with allowFileSharedWriting=False
+2024-06-19 14:56:51.2465 Info Shutdown() called. Logger closing...
+2024-06-19 14:56:51.2474 Info Closing old configuration.
+2024-06-19 14:56:51.2488 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:56:51.2494 Trace Flushing all 1 targets...
+2024-06-19 14:56:51.2494 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:56:51.2506 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:56:51.2506 Trace Continuation invoked: 
+2024-06-19 14:56:51.2557 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:56:51.2564 Debug Flush completed
+2024-06-19 14:56:51.2564 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:56:51.2564 Debug Closing logging configuration...
+2024-06-19 14:56:51.2564 Trace Closing FileTarget(Name=file)
+2024-06-19 14:56:51.2576 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:56:51.2576 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/SubmitFirstNameTests.log, isArchiving: False'
+2024-06-19 14:56:51.2589 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/SubmitFirstNameTests.log'
+2024-06-19 14:56:51.2589 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/SubmitFirstNameTests.log'
+2024-06-19 14:56:51.2595 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log, isArchiving: False'
+2024-06-19 14:56:51.2595 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:56:51.2595 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:56:51.2595 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:56:51.2595 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:56:51.2595 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:56:51.2595 Trace Closing Layout Renderer: ${shortdate}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:56:51.2604 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:56:51.2604 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:56:51.2604 Debug Finished closing logging configuration.
+2024-06-19 14:56:51.2604 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:56:51.2620 Info Logger has been closed down.
+2024-06-19 14:56:51.2823 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:56:51.2829 Info LogFactory has been closed.
+2024-06-19 14:59:40.9641 Debug Message Template Auto Format enabled
+2024-06-19 14:59:40.9780 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 14:59:40.9794 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-19 14:59:40.9797 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-19 14:59:40.9826 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-19 14:59:40.9903 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9908 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-19 14:59:40.9916 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9916 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:59:40.9916 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9916 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:59:40.9928 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9928 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:59:40.9928 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9928 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:59:40.9928 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9928 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:59:40.9928 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:40.9935 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:59:40.9935 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:59:40.9935 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 14:59:40.9935 Trace ParseRulesElement
+2024-06-19 14:59:40.9964 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 14:59:41.0576 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:59:41.0576 Debug --- NLog configuration dump ---
+2024-06-19 14:59:41.0576 Debug Targets:
+2024-06-19 14:59:41.0576 Debug FileTarget(Name=file)
+2024-06-19 14:59:41.0576 Debug Rules:
+2024-06-19 14:59:41.0589 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 14:59:41.0589 Debug --- End of NLog configuration dump ---
+2024-06-19 14:59:41.0589 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 14:59:41.0596 Trace FindReachableObject<System.Object>:
+2024-06-19 14:59:41.0596 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 14:59:41.0596 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 14:59:41.0596 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:59:41.0605 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:59:41.0605 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:59:41.0605 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:59:41.0605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0605 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:59:41.0605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0605 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:59:41.0605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0605 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:59:41.0605 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:59:41.0605 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:59:41.0605 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:59:41.0605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0605 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:59:41.0605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0605 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:59:41.0605 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0605 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:59:41.0615 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 14:59:41.0615 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 14:59:41.0615 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 14:59:41.0615 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 14:59:41.0634 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${message}
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${level}
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:59:41.0636 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 14:59:41.0636 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:59:41.0645 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:41.0645 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 14:59:41.0645 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:59:41.0645 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 14:59:41.0645 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0645 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 14:59:41.0645 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0645 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 14:59:41.0645 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0645 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 14:59:41.0645 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:59:41.0655 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 14:59:41.0655 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:59:41.0655 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-19 14:59:41.0655 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 14:59:41.0655 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:59:41.0655 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 14:59:41.0655 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 14:59:41.0655 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 14:59:41.0655 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0655 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 14:59:41.0655 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0655 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 14:59:41.0655 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 14:59:41.0655 Trace Initializing FileTarget(Name=file)
+2024-06-19 14:59:41.0669 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 14:59:41.0669 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 14:59:41.0669 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 14:59:41.0669 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 14:59:41.0669 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 14:59:41.0678 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 14:59:41.0678 Info Configuration initialized.
+2024-06-19 14:59:41.8355 Debug Targets configured when LogLevel >= Trace for Logger: TestLogger.SeleniumTestProject.SampleApplicationOne
+2024-06-19 14:59:41.8372 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Trace] => file
+2024-06-19 14:59:41.8372 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Debug] => file
+2024-06-19 14:59:41.8372 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Info] => file
+2024-06-19 14:59:41.8413 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Warn] => file
+2024-06-19 14:59:41.8451 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Error] => file
+2024-06-19 14:59:41.8451 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Fatal] => file
+2024-06-19 14:59:44.5040 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:59:44.5056 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:59:44.5056 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log with allowFileSharedWriting=False
+2024-06-19 14:59:44.5077 Info Shutdown() called. Logger closing...
+2024-06-19 14:59:44.5077 Info Closing old configuration.
+2024-06-19 14:59:44.5093 Debug LogFactory Flush with timeout=15 secs
+2024-06-19 14:59:44.5097 Trace Flushing all 1 targets...
+2024-06-19 14:59:44.5097 Trace ForEachItemInParallel() 1 items
+2024-06-19 14:59:44.5108 Trace FileTarget(Name=file): FlushAsync
+2024-06-19 14:59:44.5108 Trace Continuation invoked: 
+2024-06-19 14:59:44.5108 Trace Parallel task completed. 0 items remaining
+2024-06-19 14:59:44.5115 Debug Flush completed
+2024-06-19 14:59:44.5115 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-19 14:59:44.5115 Debug Closing logging configuration...
+2024-06-19 14:59:44.5115 Trace Closing FileTarget(Name=file)
+2024-06-19 14:59:44.5115 Debug FileTarget(Name=file): Closing...
+2024-06-19 14:59:44.5128 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log, isArchiving: False'
+2024-06-19 14:59:44.5128 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:59:44.5136 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-19/.log'
+2024-06-19 14:59:44.5136 Debug FileTarget(Name=file): Closed.
+2024-06-19 14:59:44.5136 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 14:59:44.5136 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${shortdate}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:59:44.5144 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${level}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${literal}
+2024-06-19 14:59:44.5144 Trace Closing Layout Renderer: ${message}
+2024-06-19 14:59:44.5144 Debug Finished closing logging configuration.
+2024-06-19 14:59:44.5154 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 14:59:44.5154 Info Logger has been closed down.
+2024-06-19 14:59:44.5472 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 14:59:44.5479 Info LogFactory has been closed.
+2024-06-19 16:18:23.6119 Debug Message Template Auto Format enabled
+2024-06-19 16:18:23.6261 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-19 16:18:23.6274 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-19 16:18:23.6277 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-19 16:18:23.6302 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-19 16:18:23.6380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6386 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-19 16:18:23.6386 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6386 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 16:18:23.6400 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6400 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 16:18:23.6400 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6400 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 16:18:23.6411 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6411 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 16:18:23.6411 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6411 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 16:18:23.6411 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.6411 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 16:18:23.6417 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-19 16:18:23.6417 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-19 16:18:23.6417 Trace ParseRulesElement
+2024-06-19 16:18:23.6444 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-19 16:18:23.7061 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 16:18:23.7061 Debug --- NLog configuration dump ---
+2024-06-19 16:18:23.7061 Debug Targets:
+2024-06-19 16:18:23.7070 Debug FileTarget(Name=file)
+2024-06-19 16:18:23.7070 Debug Rules:
+2024-06-19 16:18:23.7070 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-19 16:18:23.7070 Debug --- End of NLog configuration dump ---
+2024-06-19 16:18:23.7081 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-19 16:18:23.7081 Trace FindReachableObject<System.Object>:
+2024-06-19 16:18:23.7081 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-19 16:18:23.7089 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-19 16:18:23.7089 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 16:18:23.7089 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 16:18:23.7089 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 16:18:23.7089 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 16:18:23.7097 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7097 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 16:18:23.7097 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7097 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 16:18:23.7097 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7097 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 16:18:23.7097 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 16:18:23.7097 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 16:18:23.7097 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 16:18:23.7097 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7097 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 16:18:23.7097 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7097 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 16:18:23.7097 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7097 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 16:18:23.7097 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-19 16:18:23.7097 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-19 16:18:23.7111 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-19 16:18:23.7111 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-19 16:18:23.7127 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${message}
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${loggername}
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${level}
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 16:18:23.7127 Trace Initializing Layout Renderer: ${longdate}
+2024-06-19 16:18:23.7127 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 16:18:23.7141 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.7141 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-19 16:18:23.7141 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 16:18:23.7141 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-19 16:18:23.7141 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7141 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-19 16:18:23.7141 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7141 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-19 16:18:23.7141 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7141 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-19 16:18:23.7151 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 16:18:23.7151 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-19 16:18:23.7151 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 16:18:23.7151 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-19 16:18:23.7151 Trace Initializing Layout Renderer: ${literal}
+2024-06-19 16:18:23.7151 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 16:18:23.7151 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-19 16:18:23.7151 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-19 16:18:23.7151 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-19 16:18:23.7151 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7151 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-19 16:18:23.7151 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7157 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-19 16:18:23.7157 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-19 16:18:23.7157 Trace Initializing FileTarget(Name=file)
+2024-06-19 16:18:23.7157 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-19 16:18:23.7157 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-19 16:18:23.7157 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-19 16:18:23.7157 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-19 16:18:23.7167 Trace FileTarget(Name=file) has 2 layouts
+2024-06-19 16:18:23.7167 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-19 16:18:23.7167 Info Configuration initialized.
+2024-06-19 16:18:24.1122 Info AppDomain Shutting down. LogFactory closing...
+2024-06-19 16:18:24.1131 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-19 16:18:24.1138 Debug Closing logging configuration...
+2024-06-19 16:18:24.1138 Trace Closing FileTarget(Name=file)
+2024-06-19 16:18:24.1138 Debug FileTarget(Name=file): Closing...
+2024-06-19 16:18:24.1138 Debug FileTarget(Name=file): Closed.
+2024-06-19 16:18:24.1138 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${literal}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${shortdate}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${literal}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${mdlc}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${literal}
+2024-06-19 16:18:24.1147 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${longdate}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${literal}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${level}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${literal}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${loggername}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${literal}
+2024-06-19 16:18:24.1147 Trace Closing Layout Renderer: ${message}
+2024-06-19 16:18:24.1147 Debug Finished closing logging configuration.
+2024-06-19 16:18:24.1147 Info LogFactory has been closed.
+2024-06-20 09:23:11.6540 Debug Message Template Auto Format enabled
+2024-06-20 09:23:11.6676 Info Loading assembly name: NLog.Extensions.Logging
+2024-06-20 09:23:11.6691 Info NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.11.526. Product version: 5.3.11+f633c9f9c54df2148b80362332e8a2fb58d9f79a. GlobalAssemblyCache: False
+2024-06-20 09:23:11.6691 Debug ScanAssembly('NLog.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-06-20 09:23:11.6722 Debug Loading assembly name: NLog.Extensions.Logging succeeded!
+2024-06-20 09:23:11.6801 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6801 Trace Scanning BaseDirLayoutRenderer 'Layout Renderer: ${basedir}'
+2024-06-20 09:23:11.6810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6810 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-20 09:23:11.6821 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6821 Trace Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-20 09:23:11.6821 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6821 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-20 09:23:11.6830 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6830 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-20 09:23:11.6830 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6830 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-20 09:23:11.6830 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.6830 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-20 09:23:11.6830 Debug Adding target NLog.Targets.FileTarget(Name=file)
+2024-06-20 09:23:11.6830 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-06-20 09:23:11.6830 Trace ParseRulesElement
+2024-06-20 09:23:11.6861 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-06-20 09:23:11.7445 Debug Start watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-20 09:23:11.7445 Debug --- NLog configuration dump ---
+2024-06-20 09:23:11.7449 Debug Targets:
+2024-06-20 09:23:11.7449 Debug FileTarget(Name=file)
+2024-06-20 09:23:11.7449 Debug Rules:
+2024-06-20 09:23:11.7449 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]
+2024-06-20 09:23:11.7449 Debug --- End of NLog configuration dump ---
+2024-06-20 09:23:11.7463 Info LogManager.ThrowExceptions = true can crash the application! Use only for unit-testing and last resort troubleshooting.
+2024-06-20 09:23:11.7463 Trace FindReachableObject<System.Object>:
+2024-06-20 09:23:11.7463 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ file ]'
+2024-06-20 09:23:11.7463 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-06-20 09:23:11.7472 Trace  Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-20 09:23:11.7472 Trace   Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-20 09:23:11.7472 Trace   Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-20 09:23:11.7472 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-20 09:23:11.7472 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7472 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-20 09:23:11.7472 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7472 Trace    Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-20 09:23:11.7472 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7472 Trace   Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-20 09:23:11.7472 Trace   Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-20 09:23:11.7480 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-20 09:23:11.7480 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-20 09:23:11.7480 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7480 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-20 09:23:11.7480 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7480 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-20 09:23:11.7480 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7480 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-20 09:23:11.7480 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-06-20 09:23:11.7480 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-06-20 09:23:11.7480 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/nlog.config
+2024-06-20 09:23:11.7493 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-06-20 09:23:11.7503 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-06-20 09:23:11.7503 Trace Initializing Layout Renderer: ${message}
+2024-06-20 09:23:11.7503 Trace Initializing Layout Renderer: ${literal}
+2024-06-20 09:23:11.7503 Trace Initializing Layout Renderer: ${loggername}
+2024-06-20 09:23:11.7503 Trace Initializing Layout Renderer: ${literal}
+2024-06-20 09:23:11.7503 Trace Initializing Layout Renderer: ${level}
+2024-06-20 09:23:11.7509 Trace Initializing Layout Renderer: ${literal}
+2024-06-20 09:23:11.7509 Trace Initializing Layout Renderer: ${longdate}
+2024-06-20 09:23:11.7509 Trace Initializing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-20 09:23:11.7509 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.7509 Trace Scanning SimpleLayout '${longdate}|${level:uppercase=true}|${logger}|${message}'
+2024-06-20 09:23:11.7509 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-20 09:23:11.7509 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-06-20 09:23:11.7509 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7509 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-06-20 09:23:11.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7519 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-06-20 09:23:11.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7519 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-06-20 09:23:11.7519 Trace Initializing Layout Renderer: ${literal}
+2024-06-20 09:23:11.7519 Trace Initializing Layout Renderer: ${mdlc}
+2024-06-20 09:23:11.7519 Trace Initializing Layout Renderer: ${literal}
+2024-06-20 09:23:11.7519 Trace Initializing Layout Renderer: ${shortdate}
+2024-06-20 09:23:11.7529 Trace Initializing Layout Renderer: ${literal}
+2024-06-20 09:23:11.7529 Trace Initializing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-20 09:23:11.7529 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-06-20 09:23:11.7529 Trace Scanning SimpleLayout '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log'
+2024-06-20 09:23:11.7529 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-06-20 09:23:11.7529 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7529 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-06-20 09:23:11.7529 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7529 Trace  Scanning MdlcLayoutRenderer 'Layout Renderer: ${mdlc}'
+2024-06-20 09:23:11.7529 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-06-20 09:23:11.7529 Trace Initializing FileTarget(Name=file)
+2024-06-20 09:23:11.7540 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-06-20 09:23:11.7540 Trace Scanning FileTarget 'FileTarget(Name=file)'
+2024-06-20 09:23:11.7540 Trace  Scanning Property FileName '${basedir}/logs/${shortdate}/${mdlc:item=testName}.log' NLog.Layouts.Layout
+2024-06-20 09:23:11.7540 Trace  Scanning Property Layout '${longdate}|${level:uppercase=true}|${logger}|${message}' NLog.Layouts.Layout
+2024-06-20 09:23:11.7540 Trace FileTarget(Name=file) has 2 layouts
+2024-06-20 09:23:11.7540 Trace FileTarget(Name=file): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-06-20 09:23:11.7551 Info Configuration initialized.
+2024-06-20 09:23:18.9645 Debug Targets configured when LogLevel >= Trace for Logger: TestLogger.SeleniumTestProject.SampleApplicationOne
+2024-06-20 09:23:18.9668 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Trace] => file
+2024-06-20 09:23:18.9671 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Debug] => file
+2024-06-20 09:23:18.9671 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Info] => file
+2024-06-20 09:23:18.9671 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Warn] => file
+2024-06-20 09:23:18.9671 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Error] => file
+2024-06-20 09:23:18.9671 Debug Logger TestLogger.SeleniumTestProject.SampleApplicationOne [Fatal] => file
+2024-06-20 09:23:33.4335 Debug FileTarget(Name=file): Preparing for new file: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log'
+2024-06-20 09:23:33.4350 Debug FileTarget(Name=file): Creating file appender: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log'
+2024-06-20 09:23:33.4350 Trace FileTarget(Name=file): Opening /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log with allowFileSharedWriting=False
+2024-06-20 09:23:33.4362 Debug FileTarget(Name=file): DirectoryNotFoundException - Attempting to create directory for FileName: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log
+2024-06-20 09:23:33.4370 Info Shutdown() called. Logger closing...
+2024-06-20 09:23:33.4370 Info Closing old configuration.
+2024-06-20 09:23:33.4383 Debug LogFactory Flush with timeout=15 secs
+2024-06-20 09:23:33.4383 Trace Flushing all 1 targets...
+2024-06-20 09:23:33.4395 Trace ForEachItemInParallel() 1 items
+2024-06-20 09:23:33.4401 Trace FileTarget(Name=file): FlushAsync
+2024-06-20 09:23:33.4401 Trace Continuation invoked: 
+2024-06-20 09:23:33.4401 Trace Parallel task completed. 0 items remaining
+2024-06-20 09:23:33.4410 Debug Flush completed
+2024-06-20 09:23:33.4410 Trace FileTarget(Name=file): FlushAsync Done
+2024-06-20 09:23:33.4410 Debug Closing logging configuration...
+2024-06-20 09:23:33.4410 Trace Closing FileTarget(Name=file)
+2024-06-20 09:23:33.4410 Debug FileTarget(Name=file): Closing...
+2024-06-20 09:23:33.4420 Trace FileTarget(Name=file): FinalizeFile '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log, isArchiving: False'
+2024-06-20 09:23:33.4420 Debug FileTarget(Name=file): FileAppender Invalidate Closing File: '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log'
+2024-06-20 09:23:33.4420 Trace FileTarget: Closing '/Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0/logs/2024-06-20/.log'
+2024-06-20 09:23:33.4433 Debug FileTarget(Name=file): Closed.
+2024-06-20 09:23:33.4433 Trace Closing ${basedir}/logs/${shortdate}/${mdlc:item=testName}.log
+2024-06-20 09:23:33.4433 Trace Closing Layout Renderer: ${literal}
+2024-06-20 09:23:33.4433 Trace Closing Layout Renderer: ${shortdate}
+2024-06-20 09:23:33.4433 Trace Closing Layout Renderer: ${literal}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${mdlc}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${literal}
+2024-06-20 09:23:33.4438 Trace Closing ${longdate}|${level:uppercase=true}|${logger}|${message}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${longdate}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${literal}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${level}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${literal}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${loggername}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${literal}
+2024-06-20 09:23:33.4438 Trace Closing Layout Renderer: ${message}
+2024-06-20 09:23:33.4438 Debug Finished closing logging configuration.
+2024-06-20 09:23:33.4438 Debug Stop watching file-filter 'nlog.config' in directory: /Users/admin/SeleniumPractice/SeleniumTestProject/bin/Debug/net8.0
+2024-06-20 09:23:33.4452 Info Logger has been closed down.
+2024-06-20 09:23:33.4765 Info AppDomain Shutting down. LogFactory closing...
+2024-06-20 09:23:33.4770 Info LogFactory has been closed.

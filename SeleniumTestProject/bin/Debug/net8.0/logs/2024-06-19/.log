@@ -1,0 +1,27 @@
+2024-06-19 14:29:18.5386|INFO|SeleniumTestProject.BaseTest|Test started
+2024-06-19 14:29:19.3391|INFO|SeleniumTestProject.BaseTest|WebDriver initialized
+2024-06-19 14:29:21.1306|INFO|SeleniumTestProject.BaseTest|User navigated to SampleApplicationPage
+2024-06-19 14:29:21.1509|INFO|SeleniumTestProject.BaseTest|SampleApplicationPage is visible
+2024-06-19 14:29:24.0182|INFO|SeleniumTestProject.BaseTest|User filled form and submitted
+2024-06-19 14:29:24.0498|INFO|SeleniumTestProject.BaseTest|Ultimate QA page is visible
+2024-06-19 14:29:24.1398|INFO|SeleniumTestProject.BaseTest|WebDriver quit and disposed
+2024-06-19 14:29:24.1398|INFO|SeleniumTestProject.BaseTest|Test finished
+2024-06-19 14:32:28.1172|INFO|SeleniumTestProject.BaseTest|Test started
+2024-06-19 14:32:28.8952|INFO|SeleniumTestProject.BaseTest|WebDriver initialized
+2024-06-19 14:32:30.6091|INFO|SeleniumTestProject.BaseTest|User navigated to SampleApplicationPage
+2024-06-19 14:32:30.6304|INFO|SeleniumTestProject.BaseTest|SampleApplicationPage is visible
+2024-06-19 14:32:33.3529|INFO|SeleniumTestProject.BaseTest|User filled form and submitted
+2024-06-19 14:32:33.3845|INFO|SeleniumTestProject.BaseTest|Ultimate QA page is visible
+2024-06-19 14:32:33.4758|INFO|SeleniumTestProject.BaseTest|WebDriver quit and disposed
+2024-06-19 14:32:33.4758|INFO|SeleniumTestProject.BaseTest|Test finished
+2024-06-19 14:51:34.2384|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Starting SubmitFirstNameTests
+2024-06-19 14:51:36.2913|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|User navigated to SampleApplicationPage
+2024-06-19 14:51:36.3121|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|SampleApplicationPage is visible
+2024-06-19 14:51:39.0178|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|User filled form and submitted
+2024-06-19 14:51:39.0454|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Ultimate QA page is visible
+2024-06-19 14:51:39.1345|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-19 14:51:39.1345|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
+2024-06-19 14:56:51.2459|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-19 14:56:51.2465|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
+2024-06-19 14:59:44.4993|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-19 14:59:44.5077|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
