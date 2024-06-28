@@ -114,6 +114,7 @@
 /Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/SeleniumTestProject.AssemblyInfoInputs.cache
 /Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/SeleniumTestProject.AssemblyInfo.cs
 /Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/SeleniumTestProject.csproj.CoreCompileInputs.cache
+/Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/SeleniumTestProject.sourcelink.json
 /Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/Selenium.B5424351.Up2Date
 /Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/SeleniumTestProject.dll
 /Users/admin/SeleniumPractice/SeleniumTestProject/obj/Debug/net8.0/refint/SeleniumTestProject.dll

@@ -50,7 +50,7 @@ public class LoginAndRegisterUserTests : BaseTest
         var username = "admin@1secmail.com";
         var password = "Test123!";
         new LoginPage(Driver).LoginUser(username, password);
-        new HomePage(Driver).VerifyUserIsLoggedIn("test_admin1");
+        new HomePage(Driver).VerifyUserIsLoggedIn("test_admin");
     }
 
     [Fact]

@@ -126,6 +126,7 @@
 /Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/AutomationExerciseProj.AssemblyInfoInputs.cache
 /Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/AutomationExerciseProj.AssemblyInfo.cs
 /Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/AutomationExerciseProj.csproj.CoreCompileInputs.cache
+/Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/AutomationExerciseProj.sourcelink.json
 /Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/Automati.BDD11A11.Up2Date
 /Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/AutomationExerciseProj.dll
 /Users/admin/SeleniumPractice/AutomationExerciseProj/obj/Debug/net8.0/refint/AutomationExerciseProj.dll

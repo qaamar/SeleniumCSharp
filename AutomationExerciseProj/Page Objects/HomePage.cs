@@ -9,16 +9,16 @@ public class HomePage : BasePage
 
 
 
-    //locators
+    #region Locators
     private IWebElement NavigationBar => Driver.FindElement(By.XPath("//ul[@class='nav navbar-nav']"));
     private IWebElement RegisterAndLoginBtn => Driver.FindElement(By.XPath("//a[@href='/login']"));
     private IWebElement DeleteAccountBtn => Driver.FindElement(By.XPath("//a[@href='/delete_account']"));
     private IWebElement LoggedInLabel => Driver.FindElement(By.XPath("//*[contains(text(),' Logged in as ')]"));
     private IWebElement DeletedAccountTitle => Driver.FindElement(By.XPath("//*[@data-qa='account-deleted']"));
     public IWebElement LogOutButton => Driver.FindElement(By.XPath("//a[@href='/logout']"));
+    #endregion
 
-
-    //methods
+    #region Methods
 
     public void ClickOnLogin()
     {
@@ -53,4 +53,5 @@ public class HomePage : BasePage
         string text = NavigationBar.Text;
         Assert.DoesNotContain(username, text);
     }
+    #endregion
 }
