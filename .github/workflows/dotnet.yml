@@ -2,9 +2,9 @@ name: .NET Selenium Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, testBranchSelenium ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, testBranchSelenium ]
 
 jobs:
   build-and-test:
