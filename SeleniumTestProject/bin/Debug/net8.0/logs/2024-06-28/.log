@@ -1,0 +1,24 @@
+2024-06-28 15:56:36.6652|INFO|TestLogger.SeleniumTestProject.UnitTest1|Starting TestMethod
+2024-06-28 15:56:37.2985|INFO|TestLogger.SeleniumTestProject.UnitTest1|Navigated to example.com
+2024-06-28 15:56:37.3044|INFO|TestLogger.SeleniumTestProject.UnitTest1|Title assertion passed
+2024-06-28 15:56:37.3048|DEBUG|TestLogger.SeleniumTestProject.UnitTest1|Debugging info
+2024-06-28 15:56:37.3048|WARN|TestLogger.SeleniumTestProject.UnitTest1|This is a warning
+2024-06-28 15:56:37.3048|ERROR|TestLogger.SeleniumTestProject.UnitTest1|This is an error message
+2024-06-28 15:56:37.3796|INFO|TestLogger.SeleniumTestProject.UnitTest1|WebDriver quit and disposed
+2024-06-28 15:56:37.3796|INFO|TestLogger.SeleniumTestProject.UnitTest1|Test finished
+2024-06-28 15:56:46.2398|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-28 15:56:46.2411|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
+2024-06-28 15:56:50.7512|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-28 15:56:50.7515|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
+2024-06-28 15:56:51.9960|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-28 15:56:51.9965|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
+2024-06-28 15:56:52.7527|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Starting TestMethod
+2024-06-28 15:56:53.3315|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Navigated to example.com
+2024-06-28 15:56:53.3361|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Title assertion passed
+2024-06-28 15:56:53.3384|DEBUG|TestLogger.SeleniumTestProject.SampleApplicationOne|Debugging info
+2024-06-28 15:56:53.3384|WARN|TestLogger.SeleniumTestProject.SampleApplicationOne|This is a warning
+2024-06-28 15:56:53.3385|ERROR|TestLogger.SeleniumTestProject.SampleApplicationOne|This is an error message
+2024-06-28 15:56:53.4061|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-28 15:56:53.4061|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished
+2024-06-28 16:07:50.7624|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|WebDriver quit and disposed
+2024-06-28 16:07:50.7736|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Test finished

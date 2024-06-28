@@ -26,6 +26,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test /Users/admin/SeleniumPractice/AutomationExerciseProj --no-build Release --verbosity normal
+

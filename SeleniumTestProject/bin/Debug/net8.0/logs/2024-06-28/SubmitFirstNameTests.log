@@ -1,0 +1,4 @@
+2024-06-28 15:56:47.7507|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|User navigated to SampleApplicationPage
+2024-06-28 15:56:47.7695|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|SampleApplicationPage is visible
+2024-06-28 15:56:47.9506|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|User filled form and submitted
+2024-06-28 15:56:50.6661|INFO|TestLogger.SeleniumTestProject.SampleApplicationOne|Ultimate QA page is visible

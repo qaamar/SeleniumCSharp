@@ -8,7 +8,6 @@ namespace AutomationExerciseProj;
 public class APITest
 {
 [InlineData(true)]
-[InlineData(false)]
 [Theory]
 public void TestApi(bool x)
 {
@@ -22,7 +21,7 @@ public void TestApi(bool x)
     RestResponse response = restClient.Execute(restRequest);
 
     //Assert
-    Assert.Equal(x,!response.IsSuccessful);
+    Assert.Equal(x,response.IsSuccessful);
     //Assert
 }
 
