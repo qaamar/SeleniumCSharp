@@ -9,7 +9,7 @@ public class BaseTest : IDisposable
 {
     public string url = "https://automationexercise.com/";
     public IWebDriver Driver { get; set; }
-    
+
 
     public BaseTest() // Default constructor
     {
@@ -23,7 +23,10 @@ public class BaseTest : IDisposable
 
     public void SetupBeforeTest()
     {
-        Driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.AddArgument("--headless");
+        options.AddArgument("--disable-gpu");
+        Driver = new ChromeDriver(options);
         Driver.Manage().Window.Maximize();
         Driver.Navigate().GoToUrl(url);
     }
