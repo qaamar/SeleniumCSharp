@@ -15,9 +15,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v5
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 5.x  # Update to your specific .NET version (make sure it's supported on GitHub Actions)
+        dotnet-version: 8.0.300  # Update to your specific .NET version (make sure it's supported on GitHub Actions)
 
     - name: Setup Chrome
       uses: browser-actions/setup-chrome@latest
