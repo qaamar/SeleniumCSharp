@@ -1,32 +1,35 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
-name: .NET
+name: .NET Selenium Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
 
 jobs:
   build-and-test:
-
     runs-on: ubuntu-latest
-
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.300
-    - uses: browser-actions/setup-chrome@latest
-    - run: chrome --version    
-    - name: Restore dependencies
-      run: dotnet restore /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj
-    - name: Build
-      run: dotnet build /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj --configuration Release --no-restore
-    - name: Test
-      run: dotnet test /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj --no-build Release --verbosity normal
 
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: 5.x  # Update to your specific .NET version (make sure it's supported on GitHub Actions)
+
+    - name: Setup Chrome
+      uses: browser-actions/setup-chrome@latest
+
+    - name: Check Chrome version
+      run: google-chrome --version  # Check Chrome version to verify setup (optional)
+
+    - name: Restore dependencies
+      run: dotnet restore ./SeleniumPractice/AutomationExerciseProj.csproj
+
+    - name: Build
+      run: dotnet build ./SeleniumPractice/AutomationExerciseProj.csproj --configuration Release --no-restore
+
+    - name: Test
+      run: dotnet test ./SeleniumPractice/AutomationExerciseProj.csproj --no-build --verbosity normal
