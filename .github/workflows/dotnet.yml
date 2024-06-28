@@ -26,10 +26,10 @@ jobs:
       run: google-chrome --version  # Check Chrome version to verify setup (optional)
 
     - name: Restore dependencies
-      run: dotnet restore ./SeleniumPractice/AutomationExerciseProj.csproj
+      run: dotnet restore AutomationExerciseProj/AutomationExerciseProj.csproj
 
     - name: Build
-      run: dotnet build ./SeleniumPractice/AutomationExerciseProj.csproj --configuration Release --no-restore
+      run: dotnet build AutomationExerciseProj/AutomationExerciseProj.csproj --configuration Release --no-restore
 
     - name: Test
-      run: dotnet test ./SeleniumPractice/AutomationExerciseProj.csproj --no-build --verbosity normal
+      run: dotnet test AutomationExerciseProj/AutomationExerciseProj.csproj --no-build --verbosity normal
