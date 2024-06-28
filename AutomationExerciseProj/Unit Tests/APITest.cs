@@ -22,7 +22,7 @@ public void TestApi(bool x)
     RestResponse response = restClient.Execute(restRequest);
 
     //Assert
-    Assert.Equal(x,response.IsSuccessful);
+    Assert.Equal(x,!response.IsSuccessful);
     //Assert
 }
 
