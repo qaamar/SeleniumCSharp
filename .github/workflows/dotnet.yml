@@ -24,9 +24,9 @@ jobs:
     - uses: browser-actions/setup-chrome@latest
     - run: chrome --version    
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj
     - name: Build
       run: dotnet build /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj --configuration Release --no-restore
     - name: Test
-      run: dotnet test /Users/admin/SeleniumPractice/AutomationExerciseProj --no-build Release --verbosity normal
+      run: dotnet test /Users/admin/SeleniumPractice/AutomationExerciseProj.csproj --no-build Release --verbosity normal
 
