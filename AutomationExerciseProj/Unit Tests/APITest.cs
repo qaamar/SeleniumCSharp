@@ -25,10 +25,9 @@ public void TestApi(bool x)
     //Assert
 }
 
-[InlineData(true)]
-[InlineData(false)]
-[Theory]
-public void TestApi2(bool x)
+
+[Fact]
+public void TestApi2()
 {
     //Arrange
     var restClient = new RestClient("https://reqres.in");
